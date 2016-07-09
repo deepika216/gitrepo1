@@ -7,7 +7,7 @@ public class Rummy {
 	final List<Card> pack = new ArrayList<Card>() {
 
 	{
-		for (int i = 2; i < 52; ++i) {
+		for (int i = 0; i < 52; ++i) {
 		add(new Card(i));
 		}
 		add(new Card(100));
